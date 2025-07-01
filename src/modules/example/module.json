@@ -1,0 +1,19 @@
+{
+  "static": "./static",
+  "setting": {
+    "pages": [],
+    "subPackages": [
+      {
+        "root": "modules/example/pages",
+        "pages": [
+          {
+            "path": "index",
+            "style": {
+              "enablePullDownRefresh": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
