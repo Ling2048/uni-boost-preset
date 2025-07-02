@@ -5,6 +5,6 @@ import { createUniBoostPlugins } from 'uni-boost-module';
 export default defineConfig({
   plugins: [
     uni(),
-    createUniBoostPlugins({ src: 'src/modules' })
+    createUniBoostPlugins({ src: 'src', modulePath: 'src/modules' })
   ],
 })
